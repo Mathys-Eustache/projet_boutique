@@ -1,7 +1,17 @@
 const express = require('express')
-const cors = require('cors')
-const app = express()
-const port = 4000
-app.use(cors({ origin: '*' }))
-app.listen(port, () => console.log('Server listening on port 3000!'))
 
+const app = express()
+
+const port = 3000
+
+const cors = require('cors')
+
+app.use(cors({origin: '*'}))
+
+app.use(express.json())
+
+const gameRouter = require('./routes/gameRoutes')
+
+app.use('/api/games', gameRouter)
+
+app.listen(port, () => console.log('Le serveur en écoute sur le port 3000 !'))
