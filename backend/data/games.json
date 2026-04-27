@@ -1,0 +1,58 @@
+[
+  {
+    "id": "GAME-001",
+    "nom": "Elden Ring",
+    "description": "Levez-vous, Sans-éclat, et laissez-vous guider par la grâce pour brandir la puissance du Cercle d'Elden. Plongez dans un monde ouvert gigantesque et sombre, triomphez de boss titanesques et forgez votre propre légende dans ce chef-d'œuvre de l'Action-RPG développé par FromSoftware en collaboration avec George R. R. Martin.",
+    "quantite": 15,
+    "prix": 59.99,
+    "devise": "€",
+    "images": [],
+    "caracteristiques": {
+      "plateformes": ["PS4", "PS5", "Xbox Series X"],
+      "variantes": ["Standard", "Collector"],
+      "genre": "Action-RPG"
+    }
+  },
+  {
+    "id": "GAME-002",
+    "nom": "Hollow Knight",
+    "description": "Bravez les profondeurs d'un royaume en ruine sous la ville de Dirtmouth. Explorez des cavernes tortueuses, affrontez des créatures corrompues et liez-vous d'amitié avec des insectes étranges dans ce jeu d'action-aventure primé au style dessiné à la main. Un véritable chef-d'œuvre du genre Metroidvania qui mettra vos réflexes à l'épreuve.",
+    "quantite": 30,
+    "prix": 14.99,
+    "devise": "€",
+    "images": [],
+    "caracteristiques": {
+      "plateformes": ["Nintendo Switch", "PS4", "Xbox Series X"],
+      "variantes": ["Standard", "Physique"],
+      "genre": "Metroidvania"
+    }
+  },
+  {
+    "id": "GAME-003",
+    "nom": "The Witcher 3: Wild Hunt",
+    "description": "Incarnez Geralt de Riv, un tueur de monstres professionnel, et lancez-vous à la recherche de l'enfant de la prophétie dans un monde ouvert d'une richesse inégalée. Explorez des royaumes déchirés par la guerre, accomplissez des quêtes épiques et prenez des décisions morales complexes qui façonneront l'avenir du continent.",
+    "quantite": 22,
+    "prix": 29.99,
+    "devise": "€",
+    "images": [],
+    "caracteristiques": {
+      "plateformes": ["PS4", "PS5", "Xbox Series X", "Nintendo Switch"],
+      "variantes": ["Standard", "GOTY Edition"],
+      "genre": "Action-RPG"
+    }
+  },
+  {
+    "id": "GAME-004",
+    "nom": "Hades",
+    "description": "Défiez le dieu des morts en personne dans ce rogue-like haletant. Frayez-vous un chemin hors des Enfers grecs, débloquez de nouvelles armes divines et découvrez une histoire fascinante qui évolue à chaque tentative d'évasion. Une direction artistique sublime et un gameplay addictif vous attendent pour des heures de jeu.",
+    "quantite": 45,
+    "prix": 24.99,
+    "devise": "€",
+    "images": [],
+    "caracteristiques": {
+      "plateformes": ["PS4", "PS5", "Xbox Series X", "Nintendo Switch"],
+      "variantes": ["Standard", "Physique avec Artbook"],
+      "genre": "Rogue-like"
+    }
+  }
+]
