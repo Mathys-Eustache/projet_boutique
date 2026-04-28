@@ -6,7 +6,17 @@
     "quantite": 15,
     "prix": 59.99,
     "devise": "€",
+<<<<<<< HEAD
     "images": [],
+=======
+    "images": [
+      "assets/Images/eldenring/eldenringpromo1.jpg",
+      "assets/Images/eldenring/eldenringpromo2.jpg",
+      "assets/Images/eldenring/eldenringps4.jpg",
+      "assets/Images/eldenring/eldenringps5.jpg",
+      "assets/Images/eldenring/eldenringxbox.jpg"
+    ],
+>>>>>>> 2b77ac59168e56dfca07170a58c20e161be9abc1
     "caracteristiques": {
       "plateformes": ["PS4", "PS5", "Xbox Series X"],
       "variantes": ["Standard", "Collector"],
@@ -20,7 +30,16 @@
     "quantite": 30,
     "prix": 14.99,
     "devise": "€",
+<<<<<<< HEAD
     "images": [],
+=======
+    "images": [
+      "assets/Images/hollow/hollowpromo1.webp",
+      "assets/Images/hollow/hollowpromo2.jpeg",
+      "assets/Images/hollow/hollowps4.jpg",
+      "assets/Images/hollow/hollowswitch.jpg"
+    ],
+>>>>>>> 2b77ac59168e56dfca07170a58c20e161be9abc1
     "caracteristiques": {
       "plateformes": ["Nintendo Switch", "PS4", "Xbox Series X"],
       "variantes": ["Standard", "Physique"],
@@ -34,7 +53,16 @@
     "quantite": 22,
     "prix": 29.99,
     "devise": "€",
+<<<<<<< HEAD
     "images": [],
+=======
+    "images": [
+      "assets/Images/witcher3/witcher3ps4.jpg",
+      "assets/Images/witcher3/witcher3ps5.jpg",
+      "assets/Images/witcher3/witcher3xbox.jpg",
+      "assets/Images/witcher3/witcher3switch.jpg"
+    ],
+>>>>>>> 2b77ac59168e56dfca07170a58c20e161be9abc1
     "caracteristiques": {
       "plateformes": ["PS4", "PS5", "Xbox Series X", "Nintendo Switch"],
       "variantes": ["Standard", "GOTY Edition"],
@@ -48,7 +76,18 @@
     "quantite": 45,
     "prix": 24.99,
     "devise": "€",
+<<<<<<< HEAD
     "images": [],
+=======
+    "images": [
+      "assets/Images/hadès/hadèspromo1.jpeg",
+      "assets/Images/hadès/hadèspromo2.jpeg",
+      "assets/Images/hadès/hadèsps4.webp",
+      "assets/Images/hadès/hadèsps5.jpg",
+      "assets/Images/hadès/hadèsswitch.avif",
+      "assets/Images/hadès/hadèsxbox.webp"
+    ],
+>>>>>>> 2b77ac59168e56dfca07170a58c20e161be9abc1
     "caracteristiques": {
       "plateformes": ["PS4", "PS5", "Xbox Series X", "Nintendo Switch"],
       "variantes": ["Standard", "Physique avec Artbook"],

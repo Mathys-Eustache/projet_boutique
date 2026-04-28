@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2b77ac59168e56dfca07170a58c20e161be9abc1
 const games = require("../data/games.json");
 
 
