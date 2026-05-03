@@ -34,14 +34,14 @@
     "images": [],
 =======
     "images": [
-      "assets/Images/hollow/hollowpromo1.webp",
+      "assets/images/hollow/hollowpromo1.webp",
       "assets/Images/hollow/hollowpromo2.jpeg",
       "assets/Images/hollow/hollowps4.jpg",
       "assets/Images/hollow/hollowswitch.jpg"
     ],
 >>>>>>> 2b77ac59168e56dfca07170a58c20e161be9abc1
     "caracteristiques": {
-      "plateformes": ["Nintendo Switch", "PS4", "Xbox Series X"],
+      "plateformes": ["Nintedo_Switch", "PS4", "Xbox Series X"],
       "variantes": ["Standard", "Physique"],
       "genre": "Metroidvania"
     }
