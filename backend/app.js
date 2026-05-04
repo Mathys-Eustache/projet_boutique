@@ -14,4 +14,4 @@ const gameRouter = require('./routes/gameRoutes')
 
 app.use('/api/games', gameRouter)
 
-app.listen(port, () => console.log('Le serveur en écoute sur le port 3000 !'))
+app.listen(port, () => console.log('Serveur Y-Shop Gaming en écoute sur le port 3000 !'))

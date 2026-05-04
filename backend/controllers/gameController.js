@@ -62,6 +62,11 @@ const getAllGames = (req, res) => {
             });
         }
     }
+
+    return res.status(200).json({
+        message: 'Tous les jeux',
+        gameData: games
+    });
 }
 
 const getGameById = (req, res) => {

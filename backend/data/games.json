@@ -7,11 +7,11 @@
     "prix": 59.99,
     "devise": "€",
     "images": [
-      "assets/Images/eldenring/eldenringpromo1.jpg",
-      "assets/Images/eldenring/eldenringpromo2.jpg",
-      "assets/Images/eldenring/eldenringps4.jpg",
-      "assets/Images/eldenring/eldenringps5.jpg",
-      "assets/Images/eldenring/eldenringxbox.jpg"
+      "assets/Images/games/eldenring/eldenringpromo1.jpg",
+      "assets/Images/games/eldenring/eldenringpromo2.jpg",
+      "assets/Images/games/eldenring/eldenringps4.jpg",
+      "assets/Images/games/eldenring/eldenringps5.jpg",
+      "assets/Images/games/eldenring/eldenringxbox.jpg"
     ],
     "caracteristiques": {
       "plateformes": ["PS4", "PS5", "Xbox Series X"],
@@ -27,13 +27,13 @@
     "prix": 14.99,
     "devise": "€",
     "images": [
-      "assets/images/hollow/hollowpromo1.webp",
-      "assets/Images/hollow/hollowpromo2.jpeg",
-      "assets/Images/hollow/hollowps4.jpg",
-      "assets/Images/hollow/hollowswitch.jpg"
+      "assets/Images/games/hollow/hollowpromo1.webp",
+      "assets/Images/games/hollow/hollowpromo2.jpeg",
+      "assets/Images/games/hollow/hollowswitch.jpg",
+      "assets/Images/games/hollow/hollowps4.jpg"
     ],
     "caracteristiques": {
-      "plateformes": ["Nintedo_Switch", "PS4", "Xbox Series X"],
+      "plateformes": ["Nintendo Switch", "PS4"],
       "variantes": ["Standard", "Physique"],
       "genre": "Metroidvania"
     }
@@ -46,10 +46,12 @@
     "prix": 29.99,
     "devise": "€",
     "images": [
-      "assets/Images/witcher3/witcher3ps4.jpg",
-      "assets/Images/witcher3/witcher3ps5.jpg",
-      "assets/Images/witcher3/witcher3xbox.jpg",
-      "assets/Images/witcher3/witcher3switch.jpg"
+      "assets/Images/games/witcher3/witcher3promo1.jpeg",
+      "assets/Images/games/witcher3/witcher3promo2.jpeg",
+      "assets/Images/games/witcher3/witcher3ps4.jpg",
+      "assets/Images/games/witcher3/witcher3ps5.jpg",
+      "assets/Images/games/witcher3/witcher3xbox.jpg",
+      "assets/Images/games/witcher3/witcher3switch.jpg"
     ],
     "caracteristiques": {
       "plateformes": ["PS4", "PS5", "Xbox Series X", "Nintendo Switch"],
@@ -65,12 +67,12 @@
     "prix": 24.99,
     "devise": "€",
     "images": [
-      "assets/Images/hadès/hadèspromo1.jpeg",
-      "assets/Images/hadès/hadèspromo2.jpeg",
-      "assets/Images/hadès/hadèsps4.webp",
-      "assets/Images/hadès/hadèsps5.jpg",
-      "assets/Images/hadès/hadèsswitch.avif",
-      "assets/Images/hadès/hadèsxbox.webp"
+      "assets/Images/games/hadès/hadèspromo1.jpeg",
+      "assets/Images/games/hadès/hadèspromo2.jpeg",
+      "assets/Images/games/hadès/hadèsps4.webp",
+      "assets/Images/games/hadès/hadèsps5.jpg",
+      "assets/Images/games/hadès/hadèsswitch.avif",
+      "assets/Images/games/hadès/hadèsxbox.webp"
     ],
     "caracteristiques": {
       "plateformes": ["PS4", "PS5", "Xbox Series X", "Nintendo Switch"],
