@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 2b77ac59168e56dfca07170a58c20e161be9abc1
 const games = require("../data/games.json");
 
 const getAllGames = (req, res) => {
@@ -66,6 +62,11 @@ const getAllGames = (req, res) => {
             });
         }
     }
+
+    return res.status(200).json({
+        message: 'Tous les jeux',
+        gameData: games
+    });
 }
 
 const getGameById = (req, res) => {
