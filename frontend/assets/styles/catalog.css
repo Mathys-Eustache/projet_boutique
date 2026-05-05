@@ -1,0 +1,107 @@
+.catalog-panel {
+    margin-bottom: 24px;
+    padding: 24px;
+    background: #ffffff;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 24px;
+    box-shadow: 0 12px 36px rgba(15, 23, 42, 0.06);
+}
+
+.catalog-grid {
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.catalog-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    border-radius: 24px;
+    overflow: hidden;
+    background: #ffffff;
+    color: #0f172a;
+}
+
+.catalog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 50px rgba(15, 23, 42, 0.16);
+}
+
+.card-image {
+    overflow: hidden;
+    min-height: 230px;
+}
+
+.card-content {
+    padding: 18px 22px 12px;
+}
+
+.card-content h2 {
+    margin: 0 0 14px;
+    font-size: 1.3rem;
+    line-height: 1.25;
+}
+
+.card-price,
+.card-genre {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.card-price {
+    color: #0f172a;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.card-genre {
+    color: #64748b;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 0 22px 20px;
+}
+
+.card-actions .button {
+    flex: 1;
+}
+
+.card-actions .favorite-button {
+    flex: 0 0 auto;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+}
+
+.catalog-card:hover .card-image img {
+    transform: scale(1.03);
+}
+
+.page-header-catalog {
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+    margin-bottom: 28px;
+}
+
+.catalog-hero-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+@media (max-width: 860px) {
+    .page-header-catalog {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,13 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boutique</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="main.js" defer></script>
+    <title>Boutique Y-Shop</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <script src="js/main.js" defer></script>
 </head>
-<body>
-    
+<body class="page-home">
+    <div id="nav"></div>
+    <main class="page page-home">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Boutique de jeux vidéo</p>
+                <h1>Y-Shop Gaming</h1>
+                <p>Découvrez notre catalogue de jeux, ajoutez vos favoris et gérez votre panier avec une connexion à l’API backend.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="catalog.html">Voir le catalogue</a>
+                    <a class="button" href="favorites.html">Mes favoris</a>
+                </div>
+            </div>
+            <div class="home-carousel">
+                <div class="carousel-window">
+                    <article class="carousel-slide active">
+                        <img src="assets/Images/games/witcher3/witcher3promo1.jpeg" alt="The Witcher 3" onerror="this.src='https://via.placeholder.com/560x360?text=The+Witcher+3';">
+                        <div class="carousel-copy">
+                            <p class="eyebrow">Best-seller</p>
+                            <h2>The Witcher 3</h2>
+                            <p>Plongez dans un univers épique avec des graphismes améliorés et des combats intenses.</p>
+                        </div>
+                    </article>
+                    <article class="carousel-slide">
+                        <img src="assets/Images/games/hadès/hadèspromo1.jpeg" alt="Hades" onerror="this.src='https://via.placeholder.com/560x360?text=Hades';">
+                        <div class="carousel-copy">
+                            <p class="eyebrow">Rogue-like acclamé</p>
+                            <h2>Hades</h2>
+                            <p>Découvrez une aventure nerveuse et un gameplay riche en rebondissements.</p>
+                        </div>
+                    </article>
+                    <article class="carousel-slide">
+                        <img src="assets/Images/games/eldenring/eldenringpromo1.jpg" alt="Elden Ring" onerror="this.src='https://via.placeholder.com/560x360?text=Elden+Ring';">
+                        <div class="carousel-copy">
+                            <p class="eyebrow">Nouveau dans le catalogue</p>
+                            <h2>Elden Ring</h2>
+                            <p>Explorez un monde ouvert immense et affrontez des créatures mythiques.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="carousel-controls">
+                    <button type="button" class="carousel-dot active" data-slide="0" aria-label="Diapositive 1"></button>
+                    <button type="button" class="carousel-dot" data-slide="1" aria-label="Diapositive 2"></button>
+                    <button type="button" class="carousel-dot" data-slide="2" aria-label="Diapositive 3"></button>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
