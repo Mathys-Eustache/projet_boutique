@@ -61,6 +61,9 @@ const getAllGames = (req, res) => {
     }
     res.status(200).json({
         message: 'Catalogue complet',
+
+    return res.status(200).json({
+        message: 'Tous les jeux',
         gameData: games
     });
 }
