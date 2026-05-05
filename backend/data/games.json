@@ -14,8 +14,15 @@
       "assets/Images/games/eldenring/eldenringxbox.jpg"
     ],
     "caracteristiques": {
-      "plateformes": ["PS4", "PS5", "Xbox Series X"],
-      "variantes": ["Standard", "Collector"],
+      "plateformes": [
+        "PS4",
+        "PS5",
+        "Xbox Series X"
+      ],
+      "variantes": [
+        "Standard",
+        "Collector"
+      ],
       "genre": "Action-RPG"
     }
   },
@@ -23,7 +30,7 @@
     "id": "GAME-002",
     "nom": "Hollow Knight",
     "description": "Bravez les profondeurs d'un royaume en ruine sous la ville de Dirtmouth. Explorez des cavernes tortueuses, affrontez des créatures corrompues et liez-vous d'amitié avec des insectes étranges dans ce jeu d'action-aventure primé au style dessiné à la main. Un véritable chef-d'œuvre du genre Metroidvania qui mettra vos réflexes à l'épreuve.",
-    "quantite": 30,
+    "quantite": 0,
     "prix": 14.99,
     "devise": "€",
     "images": [
@@ -33,6 +40,15 @@
       "assets/Images/games/hollow/hollowps4.jpg"
     ],
     "caracteristiques": {
+      "plateformes": [
+        "Nintedo_Switch",
+        "PS4",
+        "Xbox Series X"
+      ],
+      "variantes": [
+        "Standard",
+        "Physique"
+      ],
       "plateformes": ["Nintendo Switch", "PS4"],
       "variantes": ["Standard", "Physique"],
       "genre": "Metroidvania"
@@ -54,8 +70,16 @@
       "assets/Images/games/witcher3/witcher3switch.jpg"
     ],
     "caracteristiques": {
-      "plateformes": ["PS4", "PS5", "Xbox Series X", "Nintendo Switch"],
-      "variantes": ["Standard", "GOTY Edition"],
+      "plateformes": [
+        "PS4",
+        "PS5",
+        "Xbox Series X",
+        "Nintendo Switch"
+      ],
+      "variantes": [
+        "Standard",
+        "GOTY Edition"
+      ],
       "genre": "Action-RPG"
     }
   },
@@ -75,8 +99,16 @@
       "assets/Images/games/hadès/hadèsxbox.webp"
     ],
     "caracteristiques": {
-      "plateformes": ["PS4", "PS5", "Xbox Series X", "Nintendo Switch"],
-      "variantes": ["Standard", "Physique avec Artbook"],
+      "plateformes": [
+        "PS4",
+        "PS5",
+        "Xbox Series X",
+        "Nintendo Switch"
+      ],
+      "variantes": [
+        "Standard",
+        "Physique avec Artbook"
+      ],
       "genre": "Rogue-like"
     }
   }
